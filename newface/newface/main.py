@@ -157,7 +157,7 @@ for name, record in attendance_records.items():
 
 # Send the entire attendance report to a single person
 # Replace 'your_phone_number' with the actual phone number to receive the report
-report_recipient_number = '+916374382550'
+report_recipient_number = '+91xxxxxxxxxx'
 attendance_report = ''
 for row in today_sheet.iter_rows(min_row=1, max_col=4, max_row=today_sheet.max_row):
     row_data = [cell.value for cell in row]
