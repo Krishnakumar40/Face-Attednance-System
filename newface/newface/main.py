@@ -64,8 +64,8 @@ def sendSMS(client, to, body):
         print(f"Error sending SMS to {to}: {str(e)}")
 
 # Set up Twilio client
-account_sid = 'AC46e63d0ecf4a60f5a3535c5f48355e3e'
-auth_token = 'faaefb96a910219e64ab102c79cdde98'
+account_sid = ''
+auth_token = ''
 twilio_client = Client(account_sid, auth_token)
 
 # Set the webcam capture duration
